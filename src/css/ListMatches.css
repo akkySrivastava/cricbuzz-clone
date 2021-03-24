@@ -1,0 +1,88 @@
+.listMatches {
+  display: flex;
+}
+
+.listMatchesCards {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 5px 8px 3px 0px #000000ad;
+}
+
+.listMatchesCards__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listMatchesCards__top > h4 {
+  font-size: large;
+  font-weight: 500;
+  color: #009270;
+}
+
+.listMatchesCards__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listMatchesCards__date > h5 {
+  margin-top: 10px;
+  color: crimson;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.listMatchesCards__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.listMatchesCards__info > h3 {
+  font-size: xx-large;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    line-clamp: 1;
+    line-height: 2.3rem;
+    max-height: 2.3rem;
+}
+
+.listMatchesCards__info > img {
+  width: 40px;
+}
+
+.listMatchesCards__Scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listMatchesCards__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listMatchesCards__button > button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: #009270;
+  border: 1px solid #0e4135;
+  border-radius: 5px;
+  color: white;
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  font-size: large;
+  border: 1px solid #009270;
+  cursor: pointer;
+}

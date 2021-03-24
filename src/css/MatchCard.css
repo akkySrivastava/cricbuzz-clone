@@ -1,0 +1,45 @@
+.matchCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 23%;
+  margin-bottom: 10px;
+  border-right: 1px solid lightgray;
+}
+
+.matchCard__Teams {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.matchCard__Teams > h4 {
+  font-weight: 600;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    line-clamp: 1;
+    line-height: 1.5rem;
+    max-height: 1.5rem;
+}
+
+.matchCard__Teams > h4:last-child {
+  margin-top: 10px;
+}
+
+.matchCard__Scores {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 5vw;
+}
+
+.matchCard__Scores > h4 {
+  font-weight: 700;
+}
+
+.matchCard__Scores > h4:last-child {
+  margin-top: 10px;
+}

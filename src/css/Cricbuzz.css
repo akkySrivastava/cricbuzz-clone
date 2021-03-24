@@ -1,0 +1,138 @@
+.cricbuzz {
+  display: flex;
+  background-color: #009270;
+  flex-direction: column;
+}
+
+.cricbuzz__header {
+  display: flex;
+  align-items: center;
+}
+
+.cricbuzz__headerImage {
+  margin: 0px 20px;
+}
+
+.cricbuzz__headerOptions {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.cricbuzz__headerOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cricbuzz__headerOption:hover {
+  background-color: #08423594;
+}
+
+.cricbuzz__headerOption > h4 {
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+}
+
+.cricbuzz__headerSearch {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  margin-left: auto;
+}
+
+.cricbuzz__headerSearch > .cricbuzz__headerSearchIcon {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #08423594;
+  border-radius: 5px;
+  color: white;
+}
+
+.cricbuzz__headerSearchIcon > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  margin-left: 5px;
+}
+
+.cricbuzz__headerSearchIcon > input::placeholder {
+  color: white !important;
+}
+
+.cricbuzz__matchStrip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.cricbuzz__matchStripLeft {
+  display: flex;
+}
+
+.cricbuzz__matchStripLeftMatch {
+  background-color: black;
+  display: flex;
+  padding: 10px;
+}
+
+.cricbuzz__matchStrip-LeftMatchOptions {
+  display: flex;
+  align-items: center;
+}
+
+.cricbuzz__matchStrip-LeftMatchOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cricbuzz__matchStrip-LeftMatchOption > p {
+    overflow: scroll;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    line-clamp: 1;
+    line-height: 1.5rem;
+    max-height: 1.5rem;
+}
+
+.cricbuzz__matchStrip-LeftMatchOption > p::-webkit-scrollbar{
+    display: none;
+}
+
+
+.cricbuzz__matchStrip-LeftMatchOption:hover {
+  background-color: #3a3939;
+}
+
+.cricbuzz__matchStrip-LeftMatchOption > small {
+  color: lightgray;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cricbuzz__all {
+  display: flex;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cricbuzz__all:hover {
+  background-color: #3a3939;
+  cursor: pointer;
+}

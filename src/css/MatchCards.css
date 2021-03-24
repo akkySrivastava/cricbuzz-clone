@@ -1,0 +1,22 @@
+.matchCards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: white;
+  padding: 0 20px;
+  box-shadow: 0px 1px 2px 0px #000806;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.matchCards__featured > h4 {
+  color: #009270;
+  margin-top: 10px;
+}
+
+.matchCards__matches {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
