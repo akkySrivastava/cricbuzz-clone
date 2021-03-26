@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../css/MatchCard.css";
 
 function MatchCard({ props }) {
-  console.log(props);
+ // console.log(props);
   return (
     <div className="matchCard">
       <div className="matchCard__Teams">

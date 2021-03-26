@@ -1,0 +1,70 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.news > h3 {
+  margin-bottom: 30px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+
+
+
+.accordSummary > small{
+    font-weight: 500;
+}
+
+.accordSummary > h4{
+    margin-bottom: 10px;
+}
+
+.MuiPaper-root {
+    margin-bottom: 10px;
+    border: 1px solid #009270;
+}
+
+.MuiSvgIcon-root{
+    color: #009270;
+}
+
+.accordDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordDetails > p{
+    font-weight: 400;
+}
+
+.accordFullStory{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #009270;
+    border-radius: 5px;
+}
+
+.accordFullStory > a{
+    color: white;
+    font-weight: 500;
+}
+.accordDetails > img{
+    margin-top: 10px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.accordSource{
+    margin-top: 10px;
+}
+
+.source{
+    font-weight: 500;
+    font-size: 1.2rem;
+}

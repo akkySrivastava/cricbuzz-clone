@@ -15,7 +15,7 @@ function ListMaches({ matchData }) {
     }
     getMatchScore(uid)
       .then((res) => {
-        console.log(res);
+        //console.log(res);
         setDetails(res);
       })
       .catch((err) => alert(err));

@@ -8,7 +8,7 @@ function MatchCards({ limit, total }) {
   useEffect(() => {
     setMatch(limit);
   }, [limit]);
-  console.log(match);
+  //console.log(match);
 
   return (
     <div className="matchCards">
@@ -17,7 +17,7 @@ function MatchCards({ limit, total }) {
       </div>
       <div className="matchCards__matches">
         {match.map((doc) => (
-          <MatchCard props={doc} />
+          <MatchCard key = {doc.unique_id}props={doc} />
         ))}
       </div>
     </div>

@@ -22,7 +22,6 @@
 
 .cricbuzz__headerOption {
   display: flex;
-  align-items: center;
   cursor: pointer;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -101,19 +100,18 @@
 }
 
 .cricbuzz__matchStrip-LeftMatchOption > p {
-    overflow: scroll;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: horizontal;
-    line-clamp: 1;
-    line-height: 1.5rem;
-    max-height: 1.5rem;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-clamp: 1;
+  line-height: 1.5rem;
+  max-height: 1.5rem;
 }
 
-.cricbuzz__matchStrip-LeftMatchOption > p::-webkit-scrollbar{
-    display: none;
+.cricbuzz__matchStrip-LeftMatchOption > p::-webkit-scrollbar {
+  display: none;
 }
-
 
 .cricbuzz__matchStrip-LeftMatchOption:hover {
   background-color: #3a3939;
@@ -135,4 +133,25 @@
 .cricbuzz__all:hover {
   background-color: #3a3939;
   cursor: pointer;
+}
+
+a:-webkit-any-link {
+  display: flex;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+}
+
+a:-webkit-any-link:hover {
+  color: rgb(15, 15, 15);
+}
+
+.cricbuzz__headerOption > .MuiSvgIcon-root{
+  color: white;
+}
+
+.cricbuzz__all > .MuiSvgIcon-root{
+  color: white;
 }

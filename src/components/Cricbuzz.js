@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import SearchIcon from "@material-ui/icons/Search";
 import "../css/Cricbuzz.css";
+import { Link } from "react-router-dom";
 
-function Cricbuzz({ limit }) {
+function Cricbuzz({ limit, key }) {
   const [match, setMatch] = useState([]);
   useEffect(() => {
     setMatch(limit);
@@ -17,7 +18,9 @@ function Cricbuzz({ limit }) {
         </div>
         <div className="cricbuzz__headerOptions">
           <div className="cricbuzz__headerOption">
-            <h4>Live Scores</h4>
+            <Link to="/">
+              <h4>Live Scores</h4>
+            </Link>
           </div>
           <div className="cricbuzz__headerOption">
             <h4>Schedule</h4>
@@ -26,8 +29,10 @@ function Cricbuzz({ limit }) {
             <h4>Archives</h4>
           </div>
           <div className="cricbuzz__headerOption">
-            <h4>News</h4>
-            <ArrowDropDownIcon />
+            <Link to="sportsnews">
+              <h4>News</h4>
+              <ArrowDropDownIcon />
+            </Link>
           </div>
           <div className="cricbuzz__headerOption">
             <h4>Series</h4>
@@ -52,7 +57,9 @@ function Cricbuzz({ limit }) {
         </div>
         <div className="cricbuzz__headerSearch">
           <div className="cricbuzz__headerSearchIcon">
-            <SearchIcon />
+            <SearchIcon style = {{
+              color: "white"
+            }}/>
             <input placeholder="Search" />
           </div>
         </div>
