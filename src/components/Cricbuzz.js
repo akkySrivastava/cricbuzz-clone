@@ -26,7 +26,9 @@ function Cricbuzz({ limit, key }) {
             <h4>Schedule</h4>
           </div>
           <div className="cricbuzz__headerOption">
-            <h4>Archives</h4>
+            <Link to="playersearch">
+              <h4>Player Search</h4>
+            </Link>
           </div>
           <div className="cricbuzz__headerOption">
             <Link to="sportsnews">
@@ -57,9 +59,11 @@ function Cricbuzz({ limit, key }) {
         </div>
         <div className="cricbuzz__headerSearch">
           <div className="cricbuzz__headerSearchIcon">
-            <SearchIcon style = {{
-              color: "white"
-            }}/>
+            <SearchIcon
+              style={{
+                color: "white",
+              }}
+            />
             <input placeholder="Search" />
           </div>
         </div>

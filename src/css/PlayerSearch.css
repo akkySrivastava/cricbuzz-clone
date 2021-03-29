@@ -1,0 +1,172 @@
+.cricbuzz__headerSearch {
+  margin-top: 10px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.player > h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: white;
+}
+/* .MuiAccordionSummary-root {
+  align-items: center !important;
+  justify-content: center !important;
+} */
+
+.player__Name {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.player__Name > h4 {
+  text-align: center;
+}
+
+.player__Name > .MuiButton-root {
+  margin-top: 10px;
+  background-color: #009270 !important;
+  color: white;
+  border: 1px solid black;
+}
+
+.prof__details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prof__detailsInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+
+.prof__detailsImg{
+    display: flex;
+}
+
+.prof__detailsImg > .MuiAvatar-root{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.prof__detailsInfo > p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.prof__detailsInfo > p:last-child{
+    margin-top: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: large;
+    border-bottom: 2px solid #009270;
+}
+
+.prof__details > h4{
+    margin-top: 5px;
+    color: #038668;
+    font-size: 1.1rem;
+}
+
+.prof__detailsPersonal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.prof__detailsPerson{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prof__details > p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(34, 34, 34);
+}
+
+.prof__detailsPersonInfo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.prof__detailsPerInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prof__detailInfo > p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.prof__teams{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 2px solid lightgray;
+}
+
+.prof__teams > h4{
+    color: #009270;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.prof__teamsName{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.prof__teamsName > p{
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.prof__statsBatting{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.prof__statBattingFormat{
+    font-weight: bold;
+    border-bottom: 3px solid #009270;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.prof__statBattingFormatInfo{
+    font-weight: 500;
+}
+

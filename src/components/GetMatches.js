@@ -4,7 +4,7 @@ import Cricbuzz from "./Cricbuzz";
 import ListMaches from "./ListMaches";
 import MatchCards from "./MatchCards";
 import SearchIcon from "@material-ui/icons/Search";
-import spinner from '../img/spinner.gif'
+import loader from '../img/loader.gif'
 
 function GetMatches() {
   const [matches, setMatches] = useState([]);
@@ -71,7 +71,7 @@ function GetMatches() {
                     left: "50%",
                     transform: "translate(-50%, -50%)"
                 }}
-                src = {spinner}
+                src = {loader}
                 alt = "Loading"
             />
         }

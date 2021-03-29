@@ -142,16 +142,17 @@ a:-webkit-any-link {
   text-decoration: none;
   font-size: 1em;
   text-align: center;
+  align-items: center;
 }
 
 a:-webkit-any-link:hover {
   color: rgb(15, 15, 15);
 }
 
-.cricbuzz__headerOption > .MuiSvgIcon-root{
+.cricbuzz__headerOption > .MuiSvgIcon-root {
   color: white;
 }
 
-.cricbuzz__all > .MuiSvgIcon-root{
+.cricbuzz__all > .MuiSvgIcon-root {
   color: white;
 }

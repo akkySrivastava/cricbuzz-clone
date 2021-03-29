@@ -17,6 +17,22 @@ export const getMatchScore = (id) => {
     .catch((err) => console.log("Error: ", err));
 };
 
+export const getPlayerStat = (name) => {
+  const url = `https://cricapi.com/api/playerFinder?apikey=${API_KEY}&name=${name}`;
+
+  return fetch(url)
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
+};
+
+export const getPlayerDesc = (id) => {
+  const url = `https://cricapi.com/api/playerStats?apikey=${API_KEY}&pid=${id}`;
+
+  return fetch(url)
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
+};
+
 export const getNews = () => {
   const url = `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${NEWS_API_KEY}`;
 

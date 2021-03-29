@@ -3,6 +3,9 @@
   flex-direction: column;
   background-color: lightgray;
   height: auto;
+  background-image: url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Y3JpY2tldHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
 }
 
 .listMaches {
